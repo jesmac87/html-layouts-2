@@ -1,0 +1,88 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.box {
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+
+.text {
+	height: 35%;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.first-container {
+	height: 35%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+	.left {
+		width: 30%;
+		height: 100%;
+		float: left;
+	}
+
+	.right {
+		width: 70%;
+		height: 100%;
+		float: left;
+	}
+
+.second-container {
+	height: 15%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+	.one {
+		width: 60%;
+		height: 100%;
+		float: left;
+	}
+
+	.two {
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+	.three {
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+
+	.four {
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+.red {
+	background: #D0021B;
+}
+
+.blue {
+	background: #4A90E2;
+}
+
+.grey {
+	background: #4A4A4A;
+}
