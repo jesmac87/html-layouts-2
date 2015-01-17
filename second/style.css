@@ -1,0 +1,94 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: #D8D8D8;
+}
+
+.content {
+	height: 90%;
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.first-container {
+	height: 35%;
+	background: white;
+}
+
+.paragraph {
+	height: 60%;
+	overflow: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+
+.button-container {
+	height: 40%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.button {
+	width: 10%;
+	height: 50%;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.red {
+	background: #D0021B;
+}
+
+.blue {
+	background: #4A90E2;
+}
+.second-container {
+	height: 55%;
+	background: white;
+}
+
+.paragraph-container {
+	height: 40%;
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.image-container {
+	height: 60%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: #333333;
+}
+
+.footer-button {
+	height: 50%;
+	width: 10%;
+	color: white;
+}
+
+.horizontal-rule {
+	height: 10%;
+}
+
+.image {
+	max-width:100%;
+	max-height:80%;
+}
